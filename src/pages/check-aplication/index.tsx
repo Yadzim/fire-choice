@@ -4,7 +4,6 @@ import { TbAlertCircle, TbCircleCheck, TbCircleX } from 'react-icons/tb';
 import soliqImg from '../../assets/soliq.png';
 import relationImg from '../../assets/iib.png';
 import failImg from '../../assets/mygov.png';
-import { MdYard } from 'react-icons/md';
 
 type Statustype = {
   loading: boolean

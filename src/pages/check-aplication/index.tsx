@@ -1,6 +1,10 @@
 import { Button, Tag } from 'antd';
 import React, { useState } from 'react';
 import { TbAlertCircle, TbCircleCheck, TbCircleX } from 'react-icons/tb';
+import soliqImg from '../../assets/soliq.png';
+import relationImg from '../../assets/iib.png';
+import failImg from '../../assets/mygov.png';
+import { MdYard } from 'react-icons/md';
 
 type Statustype = {
   loading: boolean
@@ -106,7 +110,7 @@ const Checkaplication: React.FC = (): React.JSX.Element => {
               <div className="mt-2">
                 {
                   soliq.status ? Status(1, soliq.status)
-                    : <Button onClick={() => checkStatus(1)} loading={soliq.loading} ><TbCircleCheck size={18} /> Tekshirish</Button>
+                    : <Button onClick={() => checkStatus(1)} loading={soliq.loading} ><img src={soliqImg} alt="" className='h-6' /> Tekshirish</Button>
                 }
               </div>
             </div>
@@ -122,7 +126,7 @@ const Checkaplication: React.FC = (): React.JSX.Element => {
               <div className="mt-2">
                 {
                   fail.status ? Status(2, fail.status)
-                    : <Button onClick={() => checkStatus(2)} loading={fail.loading} ><TbCircleCheck size={18} /> Tekshirish</Button>
+                    : <Button onClick={() => checkStatus(2)} loading={fail.loading} ><img src={failImg} alt="" className='h-6' />  Tekshirish</Button>
                 }
               </div>
             </div>
@@ -138,7 +142,7 @@ const Checkaplication: React.FC = (): React.JSX.Element => {
               <div className="mt-2">
                 {
                   relation.status ? Status(3, relation.status)
-                    : <Button onClick={() => checkStatus(3)} loading={relation.loading} ><TbCircleCheck size={18} /> Tekshirish</Button>
+                    : <Button onClick={() => checkStatus(3)} loading={relation.loading} ><img src={relationImg} alt="" className='h-6' />  Tekshirish</Button>
                 }
               </div>
             </div>

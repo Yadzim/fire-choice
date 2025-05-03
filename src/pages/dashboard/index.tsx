@@ -16,7 +16,7 @@ const Dashboard: React.FC = (): React.JSX.Element => {
             <p className='text-2xl text-slate-600 font-semibold' >“Ochiq, Ishonchli va Shaffof tender tizimi”</p>
           </div>
           <Link to={"/aplications"} className="d-f gap-3 card rounded-3xl h-18 text-lg font-semibold"><div className="p-3 rounded-full bg-blue-600/10 text-blue-500"><TbLicense size={24} /></div> Arizalar</Link>
-          <Link to={"/check-aplications"} className="d-f gap-3 card rounded-3xl h-18 text-lg font-semibold"><div className="p-3 rounded-full bg-blue-600/10 text-blue-500"><TbCheckbox size={24} /></div> Arizani tekshirish</Link>
+          <Link to={"/check-aplication"} className="d-f gap-3 card rounded-3xl h-18 text-lg font-semibold"><div className="p-3 rounded-full bg-blue-600/10 text-blue-500"><TbCheckbox size={24} /></div> Arizani tekshirish</Link>
           <Link to={"/tenders"} className="d-f gap-3 card rounded-3xl h-18 text-lg font-semibold"><div className="p-3 rounded-full bg-blue-600/10 text-blue-500"><TbList size={24} /></div> tenderlar</Link>
         </div>
         <div className="col-span-2 card flex-center flex-col gap-4">

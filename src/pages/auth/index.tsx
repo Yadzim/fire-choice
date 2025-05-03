@@ -1,5 +1,5 @@
 import React from 'react';
-import auth_image from "../../assets/auth-img2.svg"
+import auth_image from "../../assets/auth-imag3.svg"
 import { Button, Form, Input } from 'antd';
 import { useAuth } from '../../store';
 import logo from "../../assets/logo.png"
@@ -39,7 +39,7 @@ const Login: React.FC = (): React.JSX.Element => {
         </Form>
       </div>
       <div className="col-span-2 bg-gray-50 flex-center">
-        <img src={auth_image} alt="" className='w-2/3' />
+        <img src={auth_image} alt="" className='h-2/3' />
       </div>
     </div>
   );

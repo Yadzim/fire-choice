@@ -40,7 +40,7 @@ const AplicationList: React.FC = (): React.JSX.Element => {
 
   return (
     <div className="p-4">
-      <div className="card mb-4 py-3">Kelib Tushgan Arizalar</div>
+      <div className="card- mb-4 py-3">Kelib Tushgan Arizalar</div>
       <div className="card py-4">
         <Table columns={columns} dataSource={aplications} />
       </div>

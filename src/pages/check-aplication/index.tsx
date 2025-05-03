@@ -13,11 +13,11 @@ const Checkaplication: React.FC = (): React.JSX.Element => {
         <div className="card">
           <h6 className='text-slate-400 font-medium' >Ariza beruvchi malumotlari</h6>
           {/* <div className="avatar relative pt-14">
-              <img src={BGProfile} alt="" className='absolute top-0 h-36 w-full object-cover rounded-xl opacity-60 z-10' />
-              <div className="relative w-max h-max rounded-full mx-auto z-20 bg-white p-2">
-                <FaCircleUser size={150} className="relative text-gray-100 z-20 mx-auto" />
-              </div>
-            </div> */}
+            <img src={BGProfile} alt="" className='absolute top-0 h-36 w-full object-cover rounded-xl opacity-60 z-10' />
+            <div className="relative w-max h-max rounded-full mx-auto z-20 bg-white p-2">
+              <FaCircleUser size={150} className="relative text-gray-100 z-20 mx-auto" />
+            </div>
+          </div> */}
 
           <div className="text-center my-8">
             <h1 className="text-xl font-bold">EUROASIA INTERNATIONAL MARKETING</h1>
@@ -25,7 +25,7 @@ const Checkaplication: React.FC = (): React.JSX.Element => {
           </div>
           <div className="flex flex-col gap-4 p-2 ">
             <div className="flex-between gap-2">
-              <span className="font-semibold text-slate-400">tashkilot nomi:</span>
+              <span className="font-semibold text-slate-400">Tashkilot nomi:</span>
               <span >EUROASIA INTERNATIONAL MARKETING</span>
             </div>
             <div className="flex-between gap-2">
@@ -33,7 +33,7 @@ const Checkaplication: React.FC = (): React.JSX.Element => {
               <span >302913135</span>
             </div>
             <div className="flex-between gap-2">
-              <span className="font-semibold text-slate-400">tashkil topgan sana:</span>
+              <span className="font-semibold text-slate-400">Tashkil topgan sana:</span>
               <span >02.08.2022</span>
             </div>
             <div className="flex-between gap-2">

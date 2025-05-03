@@ -4,6 +4,7 @@ import {
   Dashboard,
   Login,
   Profile,
+  Tenders,
 } from "../pages";
 import IRoute from "./types";
 import {
@@ -11,6 +12,7 @@ import {
   TbHome,
   TbLayoutDashboard,
   TbLicense,
+  TbListDetails,
   TbUser,
 } from "react-icons/tb";
 
@@ -50,7 +52,7 @@ export const privateRoutes: IRoute[] = [
     path: "/profile",
     component: Profile,
     icon: TbUser,
-    isMenu: true,
+    isMenu: false,
     isRole: ["user"],
   },
   {
@@ -66,6 +68,14 @@ export const privateRoutes: IRoute[] = [
     path: "/check-aplication",
     component: Checkaplication,
     icon: TbChecks,
+    isMenu: true,
+    isRole: ["user"],
+  },
+  {
+    title: "Tenderlar",
+    path: "/tenders",
+    component: Tenders,
+    icon: TbListDetails,
     isMenu: true,
     isRole: ["user"],
   },

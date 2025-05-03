@@ -53,7 +53,7 @@
   }
 
   .card {
-    @apply border-0 bg-white rounded-2xl px-4 py-2;
+    @apply border-0 bg-white rounded-2xl p-4;
   }
 }
 

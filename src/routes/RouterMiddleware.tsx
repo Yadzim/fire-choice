@@ -13,6 +13,9 @@ const RouterMiddleware: React.FC = (): React.JSX.Element => {
   const { isAuth } = useAuth();
 
   function checkRole(role: string[] | string) {
+    if (role) {
+
+    }
     // if (Array.isArray(role)) {
     //   return user?.roles?.some((r) => role?.includes(r));
     // }

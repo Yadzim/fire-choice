@@ -1,1 +1,1 @@
-interface IUser {}
+export interface IUser {}

@@ -30,7 +30,7 @@ const AplicationList: React.FC = (): React.JSX.Element => {
     {
       title: 'Action',
       key: 'action',
-      render: (_, record) => (
+      render: () => (
         <div>
           <a>Arizani ko'rish</a>
         </div>

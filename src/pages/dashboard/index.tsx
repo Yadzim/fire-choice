@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { } from 'react';
 import { TbCheckbox, TbLicense, TbList } from 'react-icons/tb';
 import { LastAplications } from '../../components';
 

@@ -5,7 +5,7 @@ import { useAuth } from '../../store';
 import logo from "../../assets/logo.png"
 
 const Login: React.FC = (): React.JSX.Element => {
-  const { isAuth, login } = useAuth();
+  const { login } = useAuth();
 
   function handleSubmit(values: any) {
     login(values);

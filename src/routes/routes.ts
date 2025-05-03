@@ -2,7 +2,6 @@ import {
   AplicationList,
   Checkaplication,
   Dashboard,
-  LendingPage,
   Login,
   Profile,
 } from "../pages";

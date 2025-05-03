@@ -1,6 +1,5 @@
 import { Button, Tag } from 'antd';
-import React, { useState, useEffect } from 'react';
-import { FaCircleUser } from 'react-icons/fa6';
+import React, { } from 'react';
 import { TbCircleCheck } from 'react-icons/tb';
 
 const Checkaplication: React.FC = (): React.JSX.Element => {

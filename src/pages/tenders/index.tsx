@@ -13,6 +13,7 @@ const Tenders: React.FC = (): React.JSX.Element => {
 
       <div className="grid grid-cols-4 gap-4 mt-6">
         <div className="col-span-3 flex flex-col gap-4">
+          
           {
             tenders.map((tender, index) => (
               <div className="bg-white rounded-xl shadow-md p-6 flex justify-between w-full max-w-5xl- mx-auto" key={index}>
@@ -62,7 +63,9 @@ const Tenders: React.FC = (): React.JSX.Element => {
               </div>
             ))
           }
+          
         </div>
+        
         <div className="card">
           <h6 className='text-slate-500 font-semibold mb-3 text-lg'>Filterlash</h6>
           <div className="flex flex-col gap-8">
